@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id="car"></p>
+    <p id="addString"></p>
+    <p id="add"></p>
+
+
+    <p id="cons"></p>
+
+    <!-- You can change the properties of a constant object: -->
+
+
+
+   
+
+<script>
+ let carName = 'volvo'
+ document.getElementById('car').innerHTML = carName;
+
+ let x = "5" + 2 + 3;
+ let y = 2 + 3 + "5";
+document.getElementById("addString").innerHTML = x;
+document.getElementById("add").innerHTML = y;
+
+
+
+const cars = ["Saab", "Volvo", "BMW"];
+cars[0] = "toyota";
+cars.push("akij");
+document.getElementById("cons").innerHTML = cars; 
+
+
+</script>
+
+</body>
+</html>
