@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<p id="demo"></p>
+<p id="=="></p>
+<p id="==="></p>
+
+
+
+
+
+
+
+    <script>
+        
+let text = `He's often <br>
+called  `;
+// document.getElementById("demo").innerHTML = text;
+document.getElementById("demo").innerHTML = text.length;
+// use of (==) 
+let x = "John";        // x is a string
+let y = new String("john");  // y is an object
+document.getElementById("==").innerHTML = (x == y);
+document.getElementById("===").innerHTML = (x === y);
+
+
+
+
+    </script>
+</body>
+</html>
